@@ -11,14 +11,10 @@ int main()
     {
         for (j = i + 1; j < n; ++j)
         {
-            if (number[i] > number[j]) 
-            {
+            if (number[i] > number[j]) {          
                 a =  number[i];
                 number[i] = number[j];
-                number[j] = a;
-            }
-        }
-    }
+                number[j] = a;}}} 
     printf("The numbers arranged in ascending order are given below \n");
     for (i = 0; i < n; ++i)
         printf("%d\n", number[i]);
